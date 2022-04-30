@@ -75,7 +75,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                 alt={BLOG.author}
                 width={50}
                 height={50}
-                src={`/fauzi-logo.png`}
+                src={'/fauzi-logo.png'}
               />
                 {/* <svg
                   width="24"
