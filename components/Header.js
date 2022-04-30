@@ -61,7 +61,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
     <>
       <div className="observer-element h-4 md:h-12" ref={sentinalRef}></div>
       <div
-        className={`sticky-nav m-auto w-full h-6 flex flex-row justify-between items-center mb-2 md:mb-12 py-8 bg-opacity-60 ${
+        className={`sticky-nav m-auto w-full h-14 flex flex-row justify-between items-center mb-2 md:mb-12 py-2 bg-opacity-60 ${
           !fullWidth ? 'max-w-3xl px-4' : 'px-4 md:px-24'
         }`}
         id="sticky-nav"
@@ -70,7 +70,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
         <div className="flex items-center">
           <Link href="/">
             <a aria-label={BLOG.title}>
-              <div className="h-6">
+              <div className="h-14">
               <Image
                 alt={BLOG.author}
                 width={50}
