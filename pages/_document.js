@@ -84,9 +84,8 @@ class MyDocument extends Document {
               </noscript>
             </>
           )}
-          <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-          <link rel="icon" href="/favicon.ico" />
-          <link rel="apple-touch-icon" sizes="192x192" href="/apple-touch-icon.png"></link>
+          <link rel="icon" href="/fauzi-logo.png" type="image/png" />
+          <link rel="apple-touch-icon" sizes="192x192" href="/fauzi-logo.png"></link>
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
           {BLOG.appearance === 'auto'
             ? (
