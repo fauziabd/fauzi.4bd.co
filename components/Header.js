@@ -70,7 +70,14 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-                <svg
+              <Image
+                src="/fauzi-logo.png"
+                alt="Fauzi"
+                width="50px"
+                height="50px"
+                layout="responsive" 
+              />
+                {/* <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -96,7 +103,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                       <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
                     </radialGradient>
                   </defs>
-                </svg>
+                </svg> */}
               </div>
             </a>
           </Link>
