@@ -1,7 +1,9 @@
+import Image from 'next/image'
 import { useEffect, useRef } from 'react'
 import Link from 'next/link'
 import BLOG from '@/blog.config'
 import { useLocale } from '@/lib/locale'
+
 
 const NavBar = () => {
   const locale = useLocale()
@@ -71,10 +73,10 @@ const Header = ({ navBarTitle, fullWidth }) => {
             <a aria-label={BLOG.title}>
               <div className="h-6">
               <Image
-                src="/fauzi-logo.png"
-                alt="Fauzi"
-                width="50px"
-                height="50px"
+                alt={BLOG.author}
+                width={50}
+                height={50}
+                src={`/fauzi-logo.png`}
                 layout="responsive" 
               />
                 {/* <svg
