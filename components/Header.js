@@ -4,7 +4,6 @@ import Link from 'next/link'
 import BLOG from '@/blog.config'
 import { useLocale } from '@/lib/locale'
 
-
 const NavBar = () => {
   const locale = useLocale()
   const links = [
@@ -77,7 +76,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
                 width={50}
                 height={50}
                 src={`/fauzi-logo.png`}
-                layout="responsive" 
               />
                 {/* <svg
                   width="24"
